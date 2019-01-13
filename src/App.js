@@ -22,9 +22,11 @@ const App = () => (
           <li style={{float:"right"}}><NavLink exact to="/login">Log In</NavLink></li>
         </ul>
       </div>
-      <Switch>
-        <Route exact path="/" component={Home} />
-      </Switch>
+      <div style={{ padding: "5px" }}>
+        <Switch >
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </div>
     </div>
   </Router>
 )
