@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    padding: 20px;
+    padding: 0px;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -8,19 +8,21 @@ body {
 ul.header li {
     display: inline;
     list-style-type: none;
+    
     margin: 0;
 }
 
 ul.header {
-    background-color: #0000A0;
+    background-color: dodgerblue;
     padding: 0;
+    margin: 0;
 }
 
 ul.header li a {
     color: #FFF;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     display: inline-block;
 }
 
@@ -39,7 +41,12 @@ ul.header li a {
 }
 
 .active {
-    background-color: steelblue;
+    background-color: #1665af;
+}
+
+ul.header :hover {
+    background-color: white;
+    color: dodgerblue
 }
 
 .activeV2 {
